@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>CONTACT</title>
+	<link rel="stylesheet" type="text/css" href="watch.css">
+</head>
+<body>
+
+	<div id="contactbox">
+		<p2>..CONTACT..</p2>
+	<form action="login.php" method="post">
+		
+		<input type="text" placeholder="Name" class="names" name="names">
+		<input type="Email" placeholder="Email" class="email" name="emails">
+		<textarea cols="10" rows="10" placeholder="Type Your Message ..." id="tarea"></textarea>
+		<button class="cbtn" onclick="my()">SUBMIT</button>
+	</form>
+    </div>
+<script type="text/javascript">
+	function ()
+ {
+	var input=document.getElementById('tarea').value;
+	if(input === "")
+	{
+		alert("Enter Your Details");
+	}
+	else
+	{
+		alert("THANK YOU FOR CONTACTING US");
+	}	
+	
+}
+
+/*------------------------DATABASE CONNECTIVITY------------------------*/
+var mysql = require('mysql');
+
+var con = mysql.createConnection({
+  host: "localhost",
+  user: "root",
+  password: "root"
+});
+
+con.connect(function(err) {
+  if (err) throw err;
+  console.log("Connected!");
+});
+
+</script>
+</body>
+</html>

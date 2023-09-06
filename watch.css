@@ -1,0 +1,643 @@
+body
+{
+  background: black;
+}
+
+#Menu ul li
+{
+	width: 115px;
+	line-height: 30px;
+	list-style: none;
+	display: flex;
+	float: left;
+	padding: 7px;
+	font-weight: bold;
+}
+
+#Menu ul li a
+{
+	width: 55rem;
+	position: fixed;
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	font-family: Cambria; 
+}
+
+#Menu ul li a:hover
+{
+	color: darkorange;
+}
+
+h1
+{
+	color: white;
+	font-size: 65px;
+	position: absolute;
+	line-height: 100px;
+	top:30%;
+	left:7%;
+	font-family: Cambria;
+}
+
+.img1
+{
+  width: 40rem;
+  height: 39rem;
+  position: absolute;
+  top:11%;
+  left:51%;
+}
+
+h2
+{
+	color: white;
+	font-size: 40px;
+	font-family: Cambria;
+	letter-spacing: 2px;
+	position: absolute;
+	top: 120%;
+	left: 65%;
+}
+
+p1
+{
+	color: white;
+	font-family: Cambria;
+	position: absolute;
+	top:140%;
+	left:55%;
+	text-align: center;
+}
+.img2
+{
+	width:775px;
+	height: 550px;
+	position: absolute;
+	top:115%;
+	left:0%;
+}
+
+/*MEDIA CODE-----------------------------------------------------*/
+@media screen and (max-width:600px)
+{
+	.img1
+{
+  width: 20rem;
+  height: 19rem;
+  position: absolute;
+  top:11%;
+  left:51%;
+}
+
+.img2
+{
+	width:20rem;
+	height: 15rem;
+	position: absolute;
+	top:115%;
+	left:0%;
+}
+
+}
+
+#box1btn1
+{
+	width:150px;
+	height: 40px;
+	background: none;
+	border: solid gray;
+	color: white;
+	position: absolute;
+	top:90%;
+	left:8%;
+}
+
+.box1btn2
+{
+	width:150px;
+	height: 40px;
+	background: none;
+	border: solid gray;
+	color: white;
+	position: absolute;
+	top:90%;
+	left:22%;
+}
+
+h3
+{
+	color: white;
+	font-family: Cambria;
+	font-size: 50px;
+	position: absolute;
+	top:205%;
+	left: 10%;
+}
+
+
+.btn1
+{
+	position: absolute;
+	top:225%;
+	left:75%;
+	width:110px;
+	height: 40px;
+	background: none;
+	border: solid gray;
+	color: white;
+	font-weight: bold;
+}
+
+.btn1:hover
+{
+	border-color: white;
+	color: limegreen;
+}
+
+.btn2
+{
+	position: absolute;
+	top:225%;
+	left:83.7%;
+	width:110px;
+	height: 40px;
+	background: none;
+	border: solid gray;
+	color: white;
+	font-weight: bold;
+}
+
+.btn2:hover
+{
+	border-color: white;
+	color: limegreen;
+}
+
+#outerdiv
+{
+	background: black;
+	width:80rem;
+	left:3%;
+	height: 38rem;
+	position: absolute;
+	top:232%
+	
+}
+
+#innerdiv
+{
+	background: black;
+	width:80rem;
+	left:3%;
+	height: 38rem;
+	position: absolute;
+	top:232%;
+	display: none;
+
+}
+
+/*i1 i2 i3 IMAGES.......................*/
+
+.i1
+{
+	position: absolute;
+	top:5%;
+	left:7%;
+	border:solid 2px white;
+}
+
+.i2
+{
+   position: absolute;
+   top:5%;
+   left:36.9%;
+   border:solid 2px white;
+}
+
+.i3
+{
+	position: absolute;
+	top:5%;
+	left:67%;
+	border:solid 2px white;
+}
+
+.j1
+{
+	position: absolute;
+	top:5%;
+	left:6%;
+	border:solid 2px gray;
+}
+
+.j2
+{
+   position: absolute;
+   top:5%;
+   left:37%;
+   border:solid 2px gray;
+}
+
+.j3
+{
+	position: absolute;
+	top:5%;
+	left:67%;
+	border:solid 2px gray;
+}
+
+/*----------------------------------------CONTACT CSS-----------------------------*/
+
+#contactbox
+{
+	background: white;
+	width: 70rem;
+	height: 40rem;
+	position: absolute;
+	left:10%;
+}
+
+.names
+{
+	position: absolute;
+	width:400px;
+	height: 30px;
+	top:30%;
+	left:30%;
+}
+
+.email
+{
+	position: absolute;
+	width:400px;
+	height: 30px;
+	top:40%;
+	left:30%;
+}
+
+#tarea
+{
+	position: absolute;
+	width:400px;
+	height: 60px;
+	top:50%;
+	left:30%;
+}
+
+.cbtn
+{
+	width:180px;
+	height: 30px;
+	position: absolute;
+	top:68%;
+	left:42%;
+	background: blueviolet;
+}
+
+p2
+{
+	position: absolute;
+	top:18%;
+	font-size: 45px;
+	left:38%;
+	background: green;
+}
+
+/*****************************VIDEO PAGE*******************/
+#vid1
+{
+	position: absolute;
+	top:133rem;
+	left: 3%;
+	width: 50rem;
+	height: 40rem;
+}
+
+p101
+{
+	color: white;
+	position: absolute;
+	top:135rem;
+	left: 60%;
+	font-size: 60px;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+p102
+{
+		color: white;
+	position: absolute;
+	top:152rem;
+	left: 61%;
+	font-size: 18px;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+#myvidbtn
+{
+	width:300px;
+	height: 45px;
+	color: white;
+	top:161rem;
+	left: 64%;
+	position: absolute;
+	border:solid 1px lightblue;
+	background: transparent;
+	font-size: 17px;
+}
+
+#myvidbtn:hover
+{
+	background-color: lightblue;
+	color: black;
+	transition: 2s;
+	font-weight: bold;
+}
+video::-webkit-media-controls-panel {
+display: none !important;
+opacity: 1 !important;}
+
+/*****************************NEW LAUNCH*******************/
+
+#newlaunch
+{
+	position: absolute;
+	top:487%;
+	left:1%;
+	width: 80rem;
+	left: 2%;
+}
+
+p3
+{
+	position: absolute;
+	top:472%;
+	color: white;
+	font-size: 50px;
+	left:40%;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+
+p103
+{
+	position: absolute;
+	top:226rem;
+	left: 28%;
+	color: white;
+	font-size: 40px;
+		font-family: Cambria;
+	font-weight: bold;
+}
+
+.revimg1
+{
+		position: absolute;
+	top:232rem;
+	left: 28%;
+	width: 80px;
+	height:80px;
+}
+p104
+{
+  position: absolute;
+	top:234rem;
+	left: 35%;	
+	color: white;
+	font-size: 20px;
+		font-family: Cambria;
+	font-weight: bold;
+}
+
+p106
+{
+ position: absolute;
+	top:240rem;
+	left: 27%;	
+	color: gray;
+	font-size: 15px;
+		font-family: Cambria;
+	font-weight: bold;
+	
+}
+
+p107
+{
+ position: absolute;
+	top:240rem;
+	left: 58%;	
+	color: gray;
+	font-size: 15px;
+		font-family: Cambria;
+	font-weight: bold;
+	
+}
+
+p105
+{
+  position: absolute;
+	top:234rem;
+	left: 65%;	
+	color: white;
+	font-size: 20px;
+		font-family: Cambria;
+	font-weight: bold;
+}
+
+p108
+{
+	position: absolute;
+	top: 300rem;
+}
+
+.revimg2
+{
+		position: absolute;
+	top:232rem;
+	left: 58%;
+		width: 80px;
+	height:80px;
+}
+
+#emails
+{
+	position: absolute;
+	top:255rem;
+	left: 65%;
+	width: 15rem;
+	height: 2.5rem;
+	color: black;
+	border:solid 1px black;
+	font-size: 18px;
+	font-family: Cambria;
+	font-weight: bold;
+	outline: none;
+}
+
+::placeholder 
+{
+	color: gray;
+	font-size: 18px;
+	text-align: center;
+			font-family: Cambria;
+	font-weight: bold;
+}
+
+#lastbtn
+{
+	position: absolute;
+	top:255rem;
+	left: 83.2%;
+	width: 100px;
+	height: 2.8rem;
+	font-size:18px ;
+		font-family: Cambria;
+	font-weight: bold;
+	background: lightcoral;
+	outline: none;
+}
+
+p111
+{
+		position: absolute;
+	top:252.5rem;
+	left: 65%;
+	color: white;
+	border:solid 1px black;
+	font-size: 20px;
+	font-family: Cambria;
+	font-weight: bold;
+}
+
+
+p99
+{
+	position: absolute;
+  top: 253rem;
+  color: whitesmoke;
+  left: 30%;
+  font-size: 20px;
+  font-family: Cambria;
+  letter-spacing: 2px;
+  font-weight: bold;
+
+}
+
+p98{
+	position: absolute;
+  top: 253rem;
+  color: whitesmoke;
+  left: 2%;
+  font-size: 20px;
+  font-family: Cambria;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.m1 ul li
+{
+	width: 200px;
+	position: relative;
+  top: 253rem;
+  left: 27.5%;
+  height: 40px;
+	
+}
+
+.m1 ul li a
+{
+	color: gray;
+		width: 55rem;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Cambria;
+  font-weight: bold;
+}
+
+.m1 ul li a:hover
+{
+	color: white;
+}
+
+.m2 ul li 
+{
+  width: 200px;
+	position: relative;
+  top: 239rem;
+  left: 47.5%;
+  height: 40px;
+}
+
+.m2 ul li a
+{
+	color: gray;
+		width: 55rem;
+	text-decoration: none;
+	font-size: 18px;
+	font-family: Cambria;
+  font-weight: bold;
+}
+
+.m2 ul li a:hover
+{
+	color: white;
+}
+
+
+hr
+{
+	position: absolute;
+	top:268.5rem;
+	left: 1%;
+	size: 20;
+	width: 98%;
+}
+
+#s1
+{
+	position: absolute;
+	top: 270rem;
+	right: 18%;
+	color: white;
+}
+
+#s2
+{
+	position: absolute;
+	top: 270rem;
+	right: 13.5%;
+	color: white;
+}
+
+#s3
+{
+	position: absolute;
+	top: 270rem;
+	right: 8.5%;
+	color: white;
+}
+
+#s4
+{
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	position: absolute;
+	top: 270.2rem;
+	right: 4%;
+	color: white;
+}
+
+p100
+{
+	position: absolute;
+	top: 270.5rem;
+	left: 65%;
+	color: white;
+	font-size: 22px;
+	font-family: cursive;
+}
