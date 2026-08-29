@@ -1,167 +1,175 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Watch</title>
-	<link rel="stylesheet" type="text/css" href="watch.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>WellWatch</title>
+	<link rel="stylesheet" type="text/css" href="watch.css">
 </head>
 <body>
-<div id="Menu">
+
+<!-- ===== NAVBAR ===== -->
+<nav id="Menu">
 	<ul>
 		<li><a href="#">WATCHES</a></li>
 		<li><a href="#">STORE</a></li>
 		<li><a href="contact.html">CONTACT</a></li>
 		<li><a href="#">ORDER</a></li>
-</div>
-<div id="box1">
-	<h1>
-		CUSTOM WATCHES<br>
-		FOR ANY<br>
-		OCCASION
-	</h1>
+	</ul>
+</nav>
 
-	<p3>NEW LAUNCH</p3>
-	<button id="box1btn1">NEW LAUNCH</button>
-	<button class="box1btn2">ORDER</button>
+<!-- ===== HERO SECTION ===== -->
+<section id="hero">
+	<div class="hero-left">
+		<h1>CUSTOM WATCHES<br>FOR ANY<br>OCCASION</h1>
+		<div class="hero-btns">
+			<button id="box1btn1">NEW LAUNCH</button>
+			<button class="box1btn2">ORDER</button>
+		</div>
+	</div>
+	<div class="hero-right">
+		<img src="https://raw.githubusercontent.com/sbcoder1/wellwatch/main/watch%20image/Audemars-Piguet-CODE-11.59-Tourbillon-copy.webp" class="img1" alt="Audemars Piguet Watch">
+	</div>
+</section>
 
-	<img src="https://raw.githubusercontent.com/sbcoder1/wellwatch/main/watch%20image/Audemars-Piguet-CODE-11.59-Tourbillon-copy.webp" class="img1">
-	<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-06%20145203.png?raw=true" class="img2">
-	<h2>OUR STORE</h2>
-	<p1>Memphis clinched a spot in the play-in tournament with the victory,
-		<br>but the fight for seeding continues. The race for the No.
-	    <br>8 spot in the West -- and the safety net of having to win just one of two
-	    <br>games to make the playoffs -- could come down to the regular seasons final day,
-	    <br>when Memphis and GoldenState meet.
-	    <br>The good thing for the Grizzlies is they dont have to leave home until that matchup as 
-	    <br>they have games against Dallas and two against Sacramento before the finale.
-	    <br>[YOU CAN ENTER YOUR ANY TEXT HERE]</p1>
-</div>
-<div id="box2">
-	
-	<h3>COLLECTIONS</h3>
-	<div id="outerdiv">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185927.png?raw=true" class="i1">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185906.png?raw=true" class="i2">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185840.png?raw=true" class="i3">
+<!-- ===== STORE SECTION ===== -->
+<section id="store">
+	<div class="store-left">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-06%20145203.png?raw=true" class="img2" alt="Store Watch">
 	</div>
-	<div id="innerdiv">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185927.png?raw=true" class="j1">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185906.png?raw=true" class="j2">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185840.png?raw=true" class="j3">
+	<div class="store-right">
+		<h2>OUR STORE</h2>
+		<p class="store-text">Memphis clinched a spot in the play-in tournament with the victory,
+		but the fight for seeding continues. The race for the No.
+		8 spot in the West — and the safety net of having to win just one of two
+		games to make the playoffs — could come down to the regular season's final day,
+		when Memphis and GoldenState meet.
+		The good thing for the Grizzlies is they dont have to leave home until that matchup as
+		they have games against Dallas and two against Sacramento before the finale.
+		[YOU CAN ENTER YOUR ANY TEXT HERE]</p>
 	</div>
-	<button onclick="myfun1()" class="btn1">Latest</button>
-	<button onclick="myfun2()" class="btn2">Popular</button>
+</section>
 
-	<div id="new">
-		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Banner1470x680-3-1.jpg?raw=true" id="newlaunch">
+<!-- ===== COLLECTIONS ===== -->
+<section id="collections">
+	<div class="collections-header">
+		<h3>COLLECTIONS</h3>
+		<div class="coll-btns">
+			<button onclick="myfun1()" class="btn1">Latest</button>
+			<button onclick="myfun2()" class="btn2">Popular</button>
+		</div>
 	</div>
-  
-  <div id="myvideo">
-  <p101>SEAMASTER<br> COLLECTION IN<br>SUMMER BLUE</p101> 
-  <p102>To celebrate its oceangoing icon,<br> OMEGA has produced a collection of watches<br>with dials in various layers of Summer Blue.<br> A striking tone reminiscent of a perfect day on<br> a boundless sea.</p102> 	
-	<video  controls autoplay muted loop id="vid1">
+
+	<div id="outerdiv" class="coll-grid">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185927.png?raw=true" class="coll-img white-border" alt="Watch 1">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185906.png?raw=true" class="coll-img white-border" alt="Watch 2">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185840.png?raw=true" class="coll-img white-border" alt="Watch 3">
+	</div>
+	<div id="innerdiv" class="coll-grid">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185927.png?raw=true" class="coll-img gray-border" alt="Watch 1">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185906.png?raw=true" class="coll-img gray-border" alt="Watch 2">
+		<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Screenshot%202023-07-02%20185840.png?raw=true" class="coll-img gray-border" alt="Watch 3">
+	</div>
+</section>
+
+<!-- ===== NEW LAUNCH BANNER ===== -->
+<section id="new-launch">
+	<h4 class="nl-title">NEW LAUNCH</h4>
+	<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/Banner1470x680-3-1.jpg?raw=true" id="newlaunch" alt="New Launch Banner">
+</section>
+
+<!-- ===== VIDEO SECTION ===== -->
+<section id="myvideo">
+	<video controls autoplay muted loop id="vid1">
 		<source src="watch image/summer-plp-square.mp4" type="video/mp4">
 	</video>
-	<button id="myvidbtn">DISCOVER THIS WATCH</button>
- </div>
-	
-<div id="review">
-	<p103>WHAT CUSTOMERS ARE SAYING</p103>
-	<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/smith.png?raw=true" class="revimg1"><p104>NIEK BOVE</p104>
-	<p106>Nisi cumque in necessitatibus molestiae<br> eaque excepturi ab. Laboriosam ipsam voluptatem<br> voluptatibus labore quam nihil. Quasi occaecati<br> quos ratione quia aut molestiae velit et</p106>
+	<div class="video-text">
+		<p class="vid-title">SEAMASTER<br>COLLECTION IN<br>SUMMER BLUE</p>
+		<p class="vid-desc">To celebrate its oceangoing icon, OMEGA has produced a collection of watches
+		with dials in various layers of Summer Blue.
+		A striking tone reminiscent of a perfect day on a boundless sea.</p>
+		<button id="myvidbtn">DISCOVER THIS WATCH</button>
+	</div>
+</section>
 
-<p107>Nisi cumque in necessitatibus molestiae<br> eaque excepturi ab. Laboriosam ipsam voluptatem<br> voluptatibus labore quam nihil. Quasi occaecati<br> quos ratione quia aut molestiae velit et</p107>
-	<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/sandra-willims.png?raw=true" class="revimg2"><p105>AINARA VERGARA</p105>
-	<p108>....</p108>
-</div>
+<!-- ===== REVIEWS ===== -->
+<section id="review">
+	<h4 class="review-title">WHAT CUSTOMERS ARE SAYING</h4>
+	<div class="review-row">
+		<div class="review-card">
+			<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/smith.png?raw=true" class="revimg" alt="Niek Bove">
+			<p class="reviewer-name">NIEK BOVE</p>
+			<p class="reviewer-text">Nisi cumque in necessitatibus molestiae
+			eaque excepturi ab. Laboriosam ipsam voluptatem
+			voluptatibus labore quam nihil. Quasi occaecati
+			quos ratione quia aut molestiae velit et</p>
+		</div>
+		<div class="review-card">
+			<img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/sandra-willims.png?raw=true" class="revimg" alt="Ainara Vergara">
+			<p class="reviewer-name">AINARA VERGARA</p>
+			<p class="reviewer-text">Nisi cumque in necessitatibus molestiae
+			eaque excepturi ab. Laboriosam ipsam voluptatem
+			voluptatibus labore quam nihil. Quasi occaecati
+			quos ratione quia aut molestiae velit et</p>
+		</div>
+	</div>
+</section>
 
-<div id="lastdiv">
-	<form>
-		<p111>SIGNUP FOR OUR LATEST NEWS</p111>
-		<input type="email" name="email" placeholder="Email Address" id="emails">
-		<button id="lastbtn">SUBMIT</button>
-		<p112>____________________________________________________________________________________</p112>
-		<hr>
-	</form>
-</div>
-<div class="m1">
-	<p98>WEllWATCH</p98>
-	<p99>MENU</p99>
-<ul><li><a href="#">SHIPPING INFO</a></li>
-	<li><a href="#">REFUNDS</a></li>
-	<li><a href="#">HOW TO ORDER</a></li>
-	<li><a href="#">HOW TO TRACK</a></li>
-	<li><a href="#">SIZE GUIDES</a></li>
-</ul></div>
-<div class="m2">
-	<ul><li><a href="#">CONTACT US</a></li>
-	    <li><a href="#">MY ACCOUNT</a></li></ul>
-</div>
-</div>
-<div id="social">
-	<p100>Follow Us On...</p100>
-	<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-instagram-48.png?raw=true" id="s1"></a>
-	<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-facebook-48.png?raw=true" id="s2"></a>
-	<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-linkedin-48%20(1).png?raw=true" id="s3"></a>
-	<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-telegram.gif?raw=true" id="s4"></a>
-</div>
-<script type="text/javascript">
-	x= document.getElementById('outerdiv');
-	y=document.getElementById('innerdiv');
+<!-- ===== FOOTER ===== -->
+<footer id="footer">
+	<div class="footer-top">
+		<p class="signup-label">SIGNUP FOR OUR LATEST NEWS</p>
+		<div class="signup-row">
+			<input type="email" name="email" placeholder="Email Address" id="emails">
+			<button type="button" id="lastbtn">SUBMIT</button>
+		</div>
+	</div>
+	<hr>
+	<div class="footer-cols">
+		<div class="footer-col brand-col">
+			<p class="footer-brand">WELLWATCH</p>
+			<p class="footer-tagline">Crafted for every occasion.</p>
+		</div>
+		<div class="footer-col">
+			<p class="footer-heading">MENU</p>
+			<ul>
+				<li><a href="#">SHIPPING INFO</a></li>
+				<li><a href="#">REFUNDS</a></li>
+				<li><a href="#">HOW TO ORDER</a></li>
+				<li><a href="#">HOW TO TRACK</a></li>
+				<li><a href="#">SIZE GUIDES</a></li>
+			</ul>
+		</div>
+		<div class="footer-col">
+			<p class="footer-heading">ACCOUNT</p>
+			<ul>
+				<li><a href="#">CONTACT US</a></li>
+				<li><a href="#">MY ACCOUNT</a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<p class="follow-label">Follow Us On...</p>
+		<div class="social-icons">
+			<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-instagram-48.png?raw=true" alt="Instagram"></a>
+			<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-facebook-48.png?raw=true" alt="Facebook"></a>
+			<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-linkedin-48%20(1).png?raw=true" alt="LinkedIn"></a>
+			<a href=""><img src="https://github.com/sbcoder1/wellwatch/blob/main/watch%20image/icons8-telegram.gif?raw=true" alt="Telegram" class="tg"></a>
+		</div>
+	</div>
+</footer>
 
+<script>
+	var x = document.getElementById('outerdiv');
+	var y = document.getElementById('innerdiv');
 
-	function myfun2()
-	{
-		if(y.style.display === 'none')
-		{
-			y.style.display = 'block';
-		}
-		else
-		{
-			y.style.display = 'block';
-		}
-	}
+	function myfun2() { x.style.display = 'none';  y.style.display = 'flex'; }
+	function myfun1() { y.style.display = 'none';  x.style.display = 'flex'; }
 
-   function myfun1() 
-   {
-   	   if(y.style.display === 'block')
-   		{
-   			y.style.display ='none';
-   		}
-   		else
-   		{
-   			y.style.display = 'none';
-   		}
-   	}
-
-
- var i=document.getElementById('box1btn1');  
-
-i.addEventListener('click',function()
-{
-	var j=document.getElementById('newlaunch');
-
-	j.scrollIntoView({behaviour:'smooth'});
-})
-
-/*------------------------DATABASE CONNECTIVITY------------------------*/
-var mysql = require('mysql');
-
-var con = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "root"
-});
-
-con.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-});
-
+	document.getElementById('box1btn1').addEventListener('click', function () {
+		document.getElementById('newlaunch').scrollIntoView({ behavior: 'smooth' });
+	});
 </script>
 
-</div>
 </body>
 </html>
